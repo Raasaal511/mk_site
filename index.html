@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mакка - Frontend Developer</title>
+    <meta name="description" content="Frontend разработчик с фокусом на современные технологии и чистый код">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Stripes -->
+    <div class="background-stripes">
+        <div class="stripe stripe-1"></div>
+        <div class="stripe stripe-2"></div>
+        <div class="stripe stripe-3"></div>
+        <div class="stripe stripe-4"></div>
+    </div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Mакка</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">Обо мне</a></li>
+                <li><a href="#skills" class="nav-link">Навыки</a></li>
+                <li><a href="#goals" class="nav-link">Цели</a></li>
+
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-line">Привет, я</span>
+                    <span class="title-name">Mакка</span>
+                    <span class="title-role">Frontend Developer</span>
+                </h1>
+                <p class="hero-description">
+                    Разрабатываю современные веб-приложения с акцентом на дизайн, доступность и интуитивно понятным интерфейсом.
+                </p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary">Связаться</a>
+                    <a href="#about" class="btn btn-secondary">Узнать больше</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-photo">
+                    <img src="images/logo.jpg" alt="Mакка - Frontend Developer" loading="eager" decoding="async">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Обо мне</h2>
+                <p class="section-subtitle">Краткая история и мотивация</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Привет! Я Макка, и я только начинаю свой увлекательный путь в мире 
+                        frontend разработки. Каждый день для меня — это новые открытия, 
+                        новые знания и шаг ближе к моей мечте стать профессиональным 
+                        разработчиком.
+                    </p>
+                    <p>
+                        Моя цель — создавать не просто сайты, а настоящие произведения 
+                        цифрового искусства. Я изучаю современные технологии: HTML, CSS, 
+                        JavaScript, React, и параллельно развиваю навыки в дизайне. 
+                        Ведь красивый интерфейс — это не только код, но и понимание 
+                        того, как люди взаимодействуют с веб-приложениями.
+                    </p>
+                    <p>
+                        Я верю, что через несколько месяцев люди увидят мои первые 
+                        проекты и скажут: "Вау, это действительно круто!" Каждая 
+                        строчка кода, каждый пиксель дизайна — это мой вклад в 
+                        создание лучшего интернета. Я иду к своей цели с энтузиазмом 
+                        и готовностью учиться каждый день.
+                    </p>
+                    <p>
+                        Следите за моим прогрессом — скоро здесь появятся мои первые 
+                        работы, которые покажут, как далеко я продвинулась в изучении 
+                        frontend разработки и дизайна!
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <span class="stat-number">1+</span>
+                        <span class="stat-label">Месяцев изучения</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">∞</span>
+                        <span class="stat-label">Мотивации</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Упорства</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Навыки</h2>
+                <p class="section-subtitle">Технологии и инструменты</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category frontend-category">
+                    <div class="category-icon">💻</div>
+                    <h3 class="category-title">Frontend</h3>
+                    <p class="category-description">Современные технологии веб-разработки</p>
+                    <div class="skill-list">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">Next.js</span>
+                        <span class="skill-tag">Sass/SCSS</span>
+                        <span class="skill-tag">Responsive Design</span>
+                        <span class="skill-tag">Webpack</span>
+                        <span class="skill-tag">Vite</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">VS Code</span>
+                    </div>
+                </div>
+                <div class="skill-category design-category">
+                    <div class="category-icon">🎨</div>
+                    <h3 class="category-title">Design</h3>
+                    <p class="category-description">Создание красивых и функциональных интерфейсов</p>
+                    <div class="skill-list">
+                        <span class="skill-tag">UI/UX Design</span>
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">Adobe Photoshop</span>
+                        <span class="skill-tag">Adobe Illustrator</span>
+                        <span class="skill-tag">Color Theory</span>
+                        <span class="skill-tag">Typography</span>
+                        <span class="skill-tag">Wireframing</span>
+                        <span class="skill-tag">Prototyping</span>
+                        <span class="skill-tag">User Research</span>
+                        <span class="skill-tag">Accessibility</span>
+                        <span class="skill-tag">Mobile Design</span>
+                        <span class="skill-tag">Design Systems</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Goals Section -->
+    <section id="goals" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Мои цели</h2>
+                <p class="section-subtitle">К чему я стремлюсь</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Изучить основы</h3>
+                            <span class="timeline-company">HTML, CSS, JavaScript</span>
+                            <span class="timeline-date">Первые 3 месяца</span>
+                        </div>
+                        <p class="timeline-description">
+                            Освоить фундаментальные технологии веб-разработки. 
+                            Научиться создавать красивые и функциональные интерфейсы.
+                        </p>
+                        <ul class="timeline-achievements">
+                            <li>Создать свой первый сайт-портфолио</li>
+                            <li>Изучить адаптивную верстку</li>
+                            <li>Понять принципы UX/UI дизайна</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Освоить React</h3>
+                            <span class="timeline-company">Современные фреймворки</span>
+                            <span class="timeline-date">3-6 месяцев</span>
+                        </div>
+                        <p class="timeline-description">
+                            Погрузиться в мир современной frontend разработки. 
+                            Изучить компонентный подход и экосистему React.
+                        </p>
+                        <ul class="timeline-achievements">
+                            <li>Создать интерактивные веб-приложения</li>
+                            <li>Изучить управление состоянием</li>
+                            <li>Научиться работать с API</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Стать профессионалом</h3>
+                            <span class="timeline-company">Полноценный разработчик</span>
+                            <span class="timeline-date">6-12 месяцев</span>
+                        </div>
+                        <p class="timeline-description">
+                            Достичь уровня, когда мои работы будут впечатлять 
+                            людей и приносить реальную пользу. Готовность к 
+                            коммерческим проектам.
+                        </p>
+                        <ul class="timeline-achievements">
+                            <li>Создать портфолио из 5+ проектов</li>
+                            <li>Изучить TypeScript и современные инструменты</li>
+                            <li>Найти первую работу или заказы</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p>&copy; 2024 Mакка. Все права защищены.</p>
+                    <p class="footer-email">mакка@example.com</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#about">Обо мне</a>
+                    <a href="#skills">Навыки</a>
+                    <a href="#goals">Цели</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/cuwiwe?igsh=MXJxNW1zNWN4bzl1MQ==" class="social-link instagram" title="Instagram">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                        </svg>
+                        <span>Instagram</span>
+                    </a>
+                    <a href="#" class="social-link telegram" title="Telegram">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
+                        </svg>
+                        <span>Telegram</span>
+                    </a>
+                    <a href="#" class="social-link github" title="GitHub">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                        <span>GitHub</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
